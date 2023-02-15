@@ -1,0 +1,22 @@
+.karyawanDiv {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.karyawanText {
+    align-self: center;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}

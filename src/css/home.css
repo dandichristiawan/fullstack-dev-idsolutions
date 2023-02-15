@@ -1,0 +1,265 @@
+section {
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sliderDiv {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.article {
+    height: 100vh;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.articleImage {
+    width: 250px;
+    height: 200px;
+}
+
+.articleBox {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.articleTextBox {
+    margin-left: 20px;
+}
+
+.galleryDiv {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardContainer {
+    height: 400px;
+}
+
+.aboutContactDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactContainer {
+    padding: 30px;
+}
+
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.selfImage {
+    width: 110px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 769px) {
+    section {
+        height: 100vh;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .sliderDiv {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .article {
+        height: 100vh;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .articleImage {
+        width: 150px;
+        height: 320px;
+    }
+
+    .articleBox {
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
+
+    .articleTextBox {
+        margin-left: 20px;
+        height: 100px;
+    }
+
+    .galleryDiv {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galleryContainer {
+        height: 0px;
+    }
+
+    .heightDiv {
+        height: 300px !important;
+    }
+
+    .cardContainer {
+        height: 400px;
+    }
+
+    .aboutContactDiv {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactContainer {
+        padding: 30px;
+    }
+
+
+    .profileContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .photoContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .selfImage {
+        width: 110px;
+        height: 130px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width: 811px) and (max-width: 1130px) {
+    section {
+        height: 100vh;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .sliderDiv {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .article {
+        height: 100vh;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .articleImage {
+        width: 250px;
+        height: 247px;
+    }
+
+    .articleBox {
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .articleTextBox {
+        margin-left: 20px;
+    }
+
+    .galleryDiv {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .cardContainer {
+        height: 400px;
+    }
+
+    .aboutContactDiv {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactContainer {
+        padding: 30px;
+    }
+
+
+    .profileContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .photoContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .selfImage {
+        width: 110px;
+        height: 130px;
+        border-radius: 50%;
+    }
+
+}
